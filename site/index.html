@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ToasterBox</title>
+</head>
+<body>
+  <h1>Disc Data</h1>
+  <div id="output"></div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+
+    socket.on('discData', (data) => {
+      document.getElementById('output').innerHTML =
+        `Kleur: ${data.kleur} <br>
+         Nummer: ${data.nummer} <br>
+         Beschrijving: ${data.description}`;
+    });
+  </script>
+</body>
+</html>
