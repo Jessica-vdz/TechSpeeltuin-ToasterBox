@@ -1,0 +1,29 @@
+:root{
+    --headerFont: 'headerFont', sans-serif;
+    --customfont: 'customfont', monospace;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+@font-face {
+    font-family: "headerFont";
+    src: url(./Agbalumo-Regular.ttf);
+}
+@font-face {
+    font-family: "customfont";
+    src: url(./JetBrainsMono-VariableFont_wght.ttf);
+}
+body {
+    font-family: "customfont";
+    background-color: #fef3e2;
+}
+
+h1{
+    color: #451a03;
+    font-family: var(--headerFont);
+    font-size: 4.5rem;
+    letter-spacing: 0.2rem;
+}
