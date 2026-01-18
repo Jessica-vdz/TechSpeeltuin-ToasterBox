@@ -1,0 +1,10 @@
+{
+    "name": "burning-voices",
+    "version": "1.0.0",
+    "description": "A jukebox that forces to listen.",
+    "dependencies": {
+        "@serialport/parser-readline": "^13.0.0",
+        "serialport": "^13.0.0",
+        "socket.io": "^4.8.3"
+    }
+}
