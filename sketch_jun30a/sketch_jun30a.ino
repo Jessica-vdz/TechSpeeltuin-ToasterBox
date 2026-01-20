@@ -22,7 +22,7 @@ void setup(){
     while (true);
   }
   Serial.println("DFPlayer Klaar!"); // logs that the dfplayer is ready
-  myDFPlayer.volume(10); // set volume on 10
+  myDFPlayer.volume(1); // set volume on 10
 }
 
 void loop(){
