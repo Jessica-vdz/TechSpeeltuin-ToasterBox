@@ -1,5 +1,5 @@
 {
-    "disc": {
+    "discVideoInfo": {
         "red": [
             "video description1",
             "video description2",
@@ -29,7 +29,7 @@
             "video description5"
         ]
     },
-    "videoLink" : {
+    "discVideoLink" : {
         "red" : [
             "video1",
             "video2",
@@ -64,5 +64,14 @@
         "green": "General info about green discs.",
         "blue": "General info about blue discs.",
         "yellow": "General info about yellow discs."
+    },
+    "videoPhoto" : {
+        "red" : [
+            "photo1",
+            "photo2",
+            "photo3",
+            "photo4",
+            "photo5"
+        ]
     }
 }

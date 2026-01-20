@@ -17,32 +17,50 @@ let discKleur = null;
 
 parser.on('data', (incoming) => {
   incoming = incoming.trim();
+  console.log('SERIAL:', incoming); // prints incomming data to the terminal
 
+  // first data send from arduino (color)
   if (!discKleur) {
-    discKleur = incoming;
+    discKleur = incoming.toLowerCase();
     return;
   }
 
-  const nummer = parseInt(incoming);
-  const index = nummer - 1;
+  // second data send from arduino (number)
+  const nummer = parseInt(incoming, 10);
 
-  if (!json.disc[discKleur] || index < 0 || index > 4) {
+  if (isNaN(nummer)) {
     discKleur = null;
     return;
   }
 
-  const description = json.disc[discKleur][index];
+  const index = nummer - 1;
 
-  // Stuur data naar browser via WebSocket
-  io.emit('discData', {
+  // Validatie
+  if (
+    !json.discVideoInfo[discKleur] ||
+    !json.discVideoLink[discKleur] ||
+    !json.discInfo[discKleur] ||
+    index < 0 ||
+    index > 4
+  ) {
+    discKleur = null;
+    return;
+  }
+
+  const description = json.discVideoInfo[discKleur][index]; //gets data from discVideoInfo out of json
+  const videoLink = json.discVideoLink[discKleur][index];
+  const discInfo = json.discInfo[discKleur];
+
+io.emit('discData', {
     kleur: discKleur,
     nummer: nummer,
-    description: description
+    description: description,
+    videoLink: videoLink,
+    discInfo: discInfo
   });
 
   discKleur = null;
 });
-
 
 app.use(express.static('site'));
 
