@@ -43,25 +43,26 @@ h1{
     gap: 3rem;
 }
 .about-container{
-    padding-left: 2rem;
     font-size: 2.4rem;
-    height: 80%;
+    height: 85%;
     max-width: 80vw;
     display: flex;
-    align-items: stretch;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: #dc2626;
     border-radius: 0 3.5rem 3.5rem 0;
     box-shadow: -10px -10px 5px #b91c1c inset;
 }
 .now-container{
     width: 90%;
-    padding: 0.5rem;
+    height: 10rem;
     border-radius:  0 3.5rem 3.5rem 0;
     box-shadow: 4px 4px 2px #ecbc27;
     background-color: #facc15;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
 }
 .now-container h3{
     font-family: var(--headerFont);
@@ -74,7 +75,9 @@ h1{
     font-size: 1.4rem;
     width: 30rem;
     border-radius: 2.5rem;
+    height: 5rem;
     padding: 1rem;
+    text-align: center;
     font-family: var(--defaultFont);
     background-color: #f59e0b;
     box-shadow: 4px 4px 2px #da7806;
@@ -82,6 +85,7 @@ h1{
 
 }
 #text-rotated{
+    margin-left: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,14 +104,14 @@ h1{
     white-space: nowrap;
 }
 
-#video-container-text{
+#disc-container-text{
     flex: 1;
     padding: 3rem;
     color: #fff;
     display: flex;
 }
 
-#video-container-text p{
+#disc-container-text p{
     margin: 0 2rem;
     font-size: 1.6rem;
     font-family: var(--defaultFont);
@@ -115,15 +119,16 @@ h1{
     align-self: flex-start;
     color: #fff;
 }
-#video-img{
-    height: 50vh;
+#disc-img{
+    height:80%;
+    max-width: 60rem;
+    border-radius: 2.5rem;
 }
 
 #disc-container{
     background-color: #f59e0b;
-    padding: 2rem;
     width: 40vw;
-    height:95.8vh;
+    height:100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -150,15 +155,19 @@ h1{
     text-shadow: 4px 4px 2px #ecbc27;
     white-space: nowrap;
 }
-#disc-video{
+#disc-video-container{
     height: 55vh;
-    width:25vw;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 2.5rem;
 }
 #disc-info p {
     font-size: 1.6rem;
     width: 50rem;
     font-family: var(--defaultFont);
-    margin: auto;
+    align-self: center;
 }
 #disc-info ul li{
     text-align: center;

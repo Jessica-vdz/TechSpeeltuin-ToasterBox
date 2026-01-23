@@ -1,77 +1,45 @@
 {
-    "discVideoInfo": {
-        "red": [
-            "video description1",
-            "video description2",
-            "video description3",
-            "video description4",
-            "video description5"
-        ],
-        "green": [
-            "video description1",
-            "video description2",
-            "video description3",
-            "video description4",
-            "video description5"
-        ],
-        "blue": [
-            "video description1",
-            "video description2",
-            "video description3",
-            "video description4",
-            "video description5"
-        ],
-        "yellow": [
-            "video description1",
-            "video description2",
-            "video description3",
-            "video description4",
-            "video description5"
-        ]
-    },
-    "discVideoLink" : {
+    "videoTitle" : {
         "red" : [
-            "video1",
-            "video2",
-            "video3",
-            "video4",
-            "video5"
-        ],
-        "green" : [
-            "video1",
-            "video2",
-            "video3",
-            "video4",
-            "video5"
-        ],
-        "blue" : [
-            "video1",
-            "video2",
-            "video3",
-            "video4",
-            "video5"
+            "Khodahafez The girl who sings in the street",
+            "Persians don't back down",
+            "Coldplay Amplifies Iranian Protest Song"
         ],
         "yellow" : [
             "video1",
             "video2",
-            "video3",
-            "video4",
-            "video5"
+            "video3"
         ]
     },
     "discInfo": {
-        "red": "General info about red discs.",
-        "green": "General info about green discs.",
-        "blue": "General info about blue discs.",
+        "red": "It represents the strength and courage of those who continue to resist oppression, even in the face of danger. In Iran, women are not only fighting for their basic rights—they are fighting for the freedom to be heard, to express themselves, and to live without fear. Their voices are often silenced through strict laws and harsh punishment, yet they keep speaking out, showing incredible bravery every day. The people of Iran have also faced brutal violence when they protest. Security forces have used deadly force against citizens who simply want change, resulting in many deaths and arrests. This violence is meant to intimidate and control, but it has also sparked a powerful movement of resistance. To make it harder for people to organize and share the truth, the government has shut down the internet and phone networks. This blackout prevents citizens from communicating with each other and the outside world, isolating them and making it difficult to expose what is happening. Still, the red disc remains a symbol of hope. It reminds us that even when voices are suppressed and connections are cut, the spirit of the people cannot be erased.",
         "yellow": "General info about yellow discs."
     },
-    "videoPhoto" : {
+    "discImg": {
         "red" : [
-            "photo1",
-            "photo2",
-            "photo3",
-            "photo4",
-            "photo5"
+            "https://static01.nyt.com/images/2025/06/20/multimedia/20israel-iran-fridayprayers-roundup-topart-lpfw/20israel-iran-fridayprayers-roundup-topart-lpfw-mediumSquareAt3X.jpg"
+        ],
+        "yellow" : [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbnL_NCyXWeScuiKFMusty0XSxpRX3Z7p34Q&s"
+        ]
+    },
+    "videoDescription": {
+        "red" : [
+            "Since the 1979 Islamic Revolution, Iran has strictly limited women’s public singing. Although no law directly bans it, women are not allowed to sing solo in public or for mixed audiences. This is based on religious interpretations that view a womans solo voice as inappropriate. Women may only sing in private settings, such as for female-only audiences or in a choir where they are not the main singer. If a woman sings solo publicly, she can face charges like “promoting immorality,” which may lead to arrest, fines, or even long prison sentences—especially if the performance is shared online.",
+            "In recent years, Iranians have protested severe economic hardship and the lack of freedoms, especially for women. The movement grew after the 2022 death of Mahsa Amini, who died in police custody after being detained for allegedly not wearing her headscarf correctly. Her death sparked mass protests demanding human rights and an end to repression. Music has become a powerful form of protest. Songs like the viral anthem “Baraye” united people and expressed their hopes and anger. The artist behind it was arrested because authorities saw the song as a threat. In the video, the singer navanofficial is not just performing — he is expressing the frustration and hopes of a generation fighting for freedom. His music is part of a larger movement using art to resist censorship and keep attention on Iran despite government crackdowns.",
+            "Iran has seen huge protests in recent years due to economic hardship, political repression, and the 2022 death of Mahsa Amini after being detained by the morality police. Her death sparked nationwide demonstrations demanding justice and human rights. Music has become a key form of protest, especially when public speech is limited. The song “Baraye” became a symbol of the movement because it reflects the hopes and struggles of ordinary Iranians and went viral worldwide. When Coldplay invited Iranian actress Golshifteh Farahani to sing “Baraye” with them, it became a powerful act of international solidarity. Their performance sent a message of support for Iranians facing repression and showed that even when the government tries to silence people, their voices can still be heard globally."
+        ],
+        "yellow" : [
+            "Detailed description for video1",
+            "Detailed description for video2",
+            "Detailed description for video3"
+        ]
+    },
+    "videoLink": {
+        "red" : [
+            "media/red1.gif",
+            "media/red2.gif",
+            "media/red3.gif"
         ]
     }
 }
